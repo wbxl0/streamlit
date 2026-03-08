@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Care for People with Disabilities</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f4f7fb;
+    }
+    .hero {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      margin: 0 0 16px;
+      font-size: 2.8rem;
+    }
+    .hero p {
+      max-width: 760px;
+      margin: 0 auto 24px;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 999px;
+      background: white;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+    section { padding: 60px 0; }
+    h2 {
+      text-align: center;
+      margin-bottom: 18px;
+      font-size: 2rem;
+      color: #111827;
+    }
+    .section-text {
+      max-width: 760px;
+      margin: 0 auto 34px;
+      text-align: center;
+      color: #4b5563;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1d4ed8;
+    }
+    .highlight {
+      background: white;
+      border-left: 6px solid #7c3aed;
+      padding: 24px;
+      border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    .cta {
+      text-align: center;
+      background: #111827;
+      color: white;
+      border-radius: 24px;
+      padding: 48px 24px;
+    }
+    .cta p {
+      max-width: 760px;
+      margin: 0 auto 20px;
+      color: #d1d5db;
+    }
+    footer {
+      text-align: center;
+      padding: 24px 20px 40px;
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.1rem; }
+      h2 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Caring for People with Disabilities</h1>
+      <p>
+        A truly inclusive society is built on empathy, respect, accessibility, and equal opportunity.
+        Every person deserves dignity, support, and the chance to live a full and meaningful life.
+      </p>
+      <a class="btn" href="#learn-more">Learn More</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="learn-more">
+      <div class="container">
+        <h2>Why Inclusion Matters</h2>
+        <p class="section-text">
+          People with disabilities are valuable members of every community. Inclusion means removing barriers,
+          listening to individual needs, and creating environments where everyone can participate confidently.
+        </p>
+        <div class="grid">
+          <div class="card">
+            <h3>Respect</h3>
+            <p>
+              Treat every person with kindness and dignity. Focus on abilities, not limitations, and always value individual voices.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Accessibility</h3>
+            <p>
+              Accessible spaces, websites, transportation, and communication tools help people live more independently and safely.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Support</h3>
+            <p>
+              Families, schools, workplaces, and communities can provide practical help, emotional care, and equal opportunities.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Belonging</h3>
+            <p>
+              Everyone deserves to feel included. True care means ensuring no one is isolated, ignored, or left behind.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>How We Can Help</h2>
+        <div class="highlight">
+          <ul>
+            <li>Use respectful and inclusive language.</li>
+            <li>Ask before offering help, and listen carefully to what is needed.</li>
+            <li>Promote accessible design in schools, workplaces, and public spaces.</li>
+            <li>Support equal education, employment, and healthcare opportunities.</li>
+            <li>Stand against discrimination, stigma, and exclusion.</li>
+            <li>Encourage community programs that empower independence and confidence.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>A Message of Compassion</h2>
+        <p class="section-text">
+          Caring for people with disabilities is not just about assistance — it is about fairness, understanding,
+          and building a world where everyone is seen, heard, and respected. Small actions can create meaningful change.
+        </p>
+        <div class="cta">
+          <h2 style="color: white; margin-top: 0;">Be Kind. Be Supportive. Be Inclusive.</h2>
+          <p>
+            Together, we can create communities that celebrate diversity and protect the rights and dignity of every person.
+          </p>
+          <a class="btn" href="#top">Spread Awareness</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Inclusive communities begin with understanding and action.</p>
+  </footer>
+</body>
+</html>
